@@ -2,12 +2,12 @@ Summary:	Display time & date on the modeline
 Summary(pl):	Wy¶wietlanie czasu i daty
 Name:		xemacs-time-pkg
 %define 	srcname	time
-Version:	1.12
-Release:	2
+Version:	1.14
+Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
 Source0:	ftp://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
-# Source0-md5:	151911897d2540bd7461f1a5324017b5
+# Source0-md5:	8956073a18694a8ad91a52c7374c3d66
 URL:		http://www.xemacs.org/
 BuildArch:	noarch
 Conflicts:	xemacs-sumo
