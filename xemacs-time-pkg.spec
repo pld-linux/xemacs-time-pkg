@@ -13,13 +13,11 @@ BuildArch:	noarch
 Conflicts:	xemacs-sumo
 Requires:	xemacs
 Requires:	xemacs-base-pkg
-BuildRoot:	/tmp/%{name}-%{version}-root
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 
-
 %description -l pl 
-
 
 %prep
 %setup -q -c
@@ -34,7 +32,6 @@ gzip -9nf lisp/time/ChangeLog
 
 %clean
 rm -fr $RPM_BUILD_ROOT
-
 
 %files
 %defattr(644,root,root,755)
