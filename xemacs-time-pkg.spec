@@ -2,7 +2,7 @@ Summary:	Display time & date on the modeline
 Summary(pl):	Display time & date on the modeline
 Name:		xemacs-time-pkg
 %define 	srcname	time
-Version:	1.10
+Version:	1.11
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
