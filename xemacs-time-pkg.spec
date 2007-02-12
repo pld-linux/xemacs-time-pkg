@@ -1,5 +1,5 @@
 Summary:	Display time & date on the modeline
-Summary(pl.UTF-8):   Wyświetlanie czasu i daty
+Summary(pl.UTF-8):	Wyświetlanie czasu i daty
 Name:		xemacs-time-pkg
 %define 	srcname	time
 Version:	1.14
