@@ -3,12 +3,12 @@ Summary(pl.UTF-8):	Wyświetlanie czasu i daty
 Name:		xemacs-time-pkg
 %define 	srcname	time
 Version:	1.14
-Release:	2
+Release:	3
 License:	GPL
 Group:		Applications/Editors/Emacs
-Source0:	http://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
+Source0:	http://ftp.xemacs.org/pub/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
 # Source0-md5:	8956073a18694a8ad91a52c7374c3d66
-URL:		http://www.xemacs.org/
+URL:		https://www.xemacs.org/
 BuildArch:	noarch
 Conflicts:	xemacs-sumo
 Requires:	xemacs
